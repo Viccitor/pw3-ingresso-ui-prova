@@ -1,5 +1,9 @@
 
 export interface Sessao {
-  id: number;
-  
+  sessao: number;
+  data: string;
+  horario: string;
+  preco: number;
+  sala: string;
+  id_filme: number;
 }
